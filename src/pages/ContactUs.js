@@ -21,12 +21,12 @@ export default function ContactUs() {
         
        <center> 
         <div class="container">
-      <center>  <label for="aboutme">About Me</label></center>
 
         <form onSubmit={sendEmail}>
-        
     <div className="row pt-5 mx-aout">
     <div className="col-5 form-group mx-auto">
+    <center>  <label for="aboutme">About Me</label></center>
+
     <label for="fname">First Name</label>
 
     <input type="text" className="form-control" placeholder="" name="first_name"/>
@@ -65,7 +65,7 @@ export default function ContactUs() {
     <input type="text" className="form-control" placeholder="I am Looking for a room" name="service"/>
     </div>
 
-    <label for="message">Leave a detail ,message about your client or your home if you want to submit an application  </label>
+    <label for="message">Leave a detail ,message about your client or your home  </label>
 
     <div className="col-8 form-group mx-auto">
     <textarea className="form-control" id="" height="200px" row="10" placeholder="" name="message"></textarea>
