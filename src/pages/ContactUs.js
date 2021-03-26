@@ -19,7 +19,7 @@ export default function ContactUs() {
     return(
         <Hero>
         
-        <center>
+       <center> 
         <div class="container">
       <center>  <label for="aboutme">About Me</label></center>
 
